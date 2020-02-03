@@ -9,7 +9,7 @@
 
 .col {
   flex-basis: 100%;
-  @mixin phone {
+  @mixin phone-only {
     flex: 1;
   }
   @mixin tablet {
