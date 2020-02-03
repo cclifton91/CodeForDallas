@@ -9,7 +9,6 @@ li {
 a {
   text-decoration: none;
   color: $darktxt;
-  font-family: $heading;
 }
 
 main {
