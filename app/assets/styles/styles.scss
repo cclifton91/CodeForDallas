@@ -1,19 +1,19 @@
-//Dependency
+/**Dependency**/
 @import "normalize.css";
 
-//Abstract
+/**Abstract**/
 @import "abstracts/colors";
 @import "abstracts/font";
 
-// Base
+/**Base**/
 @import "base/base";
 @import "base/mediaqueries";
 @import "base/typography";
 
-//Components
+/**Component**/
 @import "components/buttons";
 
-//Layout
+/**Layout**/
 @import "layout/grid";
 
 /**Test connection**/
