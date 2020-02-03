@@ -5,7 +5,8 @@ $heading: "Montserrat", sans-serif;
 /*Size*/
 $heading1: calc(6rem + 1vw);
 $heading2: calc(4.5rem + 1vw);
-$heading3: calc(3rem + 1vw);
+$heading3: calc(2rem + 1vw);
+$link: calc(0.7rem + 1vw);
 $paragraph: calc(0.4rem + 1vw);
 $sub: calc(0.2rem + 1vw);
 
