@@ -9,10 +9,10 @@
 
 .col {
   flex-basis: 100%;
-  @include phone {
+  @mixin phone {
     flex: 1;
   }
-  @include tablet {
+  @mixin tablet {
     flex: 1;
   }
 }

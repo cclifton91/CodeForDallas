@@ -11,7 +11,8 @@ const postCSSPlugins = [
   require('postcss-simple-vars'),
   require('postcss-nested'),
   require('postcss-hexrgba'),
-  require('autoprefixer')
+  require('autoprefixer'),
+  require('stylelint-config-recommended'),
 ]
 
 class RunAfterCompile {

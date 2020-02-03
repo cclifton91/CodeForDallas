@@ -6,18 +6,18 @@ $desktop-width: 1024px;
 /**Queries**/
 @define-mixin phone {
   @media (min-width: #{$phone-width}) and (max-width: #{$tablet-width - 1px}) {
-    @content;
+    @mixin-content;
   }
 }
 
 @define-mixin tablet {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
+    @mixin-content;
   }
 }
 
 @define-mixin desktop {
   @media (min-width: #{$desktop-width}) {
-    @content;
+    @mixin-content;
   }
 }
