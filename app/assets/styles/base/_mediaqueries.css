@@ -1,4 +1,5 @@
 /**Queries Mixins**/
+
 @define-mixin phone-only {
   @media (max-width: 599px) {
     @mixin-content;
